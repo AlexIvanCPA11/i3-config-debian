@@ -1,6 +1,6 @@
 ## i3-config-debian
 
-My personal i3 configuration used on debian 12.8
+My personal i3 configuration used on debian 12.8. Debian install without any Desktop Env
 
 `$ sudo apt install i3 i3-wm i3blocks i3status i3-gaps`
 
