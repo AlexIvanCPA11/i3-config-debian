@@ -8,6 +8,7 @@ Most important one, the lightdm (if you want to have a GUI)
 ```
 $ sudo apt install lightdm lightdm-gtk-greeter lightdm-settings
 ```
+And then git clone lightdm-mini-greeter project
 ```sudo systemctl restart lightdm``` to refresh so you don't need to reboot
 
 ```$ sudo apt install i3 i3-wm i3blocks i3status i3-gaps```
