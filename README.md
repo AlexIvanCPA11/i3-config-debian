@@ -14,6 +14,8 @@ $ sudo apt install lightdm lightdm-gtk-greeter lightdm-settings
 
 ```$ sudo apt install  rofi feh pulseaudio nemo terminator lxappearance compton```
 
+Compton for start. I recommend fastcompmgr
+
 ### Brave Browser
 ```curl -fsS https://dl.brave.com/install.sh | sh```
 
