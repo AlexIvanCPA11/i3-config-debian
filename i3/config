@@ -10,10 +10,10 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Desktop Compositor Picom
-#exec_always compton -f -m
+exec_always compton -f -m
 #exec --no-startup-id picom --experimental-backend --config /home/diobrando/.config/picom/picom.conf -b --no-vsync
 
-exec_always fastcompmgr -o 0.75 -r 11 -c -C -m 0.9 -i 0.9 -e 0.9
+#exec_always fastcompmgr -o 0.75 -r 11 -c -C -m 0.9 -i 0.9 -e 0.9
 
 
 set $mod Mod4
