@@ -5,6 +5,9 @@
 
 Most important one, the lightdm (if you want to have a GUI)
 
+Update i3 to latest version
+alternative to i3blocks can be bumblebee-status
+
 ```
 $ sudo apt install lightdm lightdm-gtk-greeter lightdm-settings
 ```
