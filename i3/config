@@ -197,7 +197,7 @@ set $bg-color	         #c600ed
 set $inactive-bg-color   #000000
 set $text-color          #FFFFFF
 set $inactive-text-color #FFFFFF
-set $urgent-bg-color     #e15d46
+set $urgent-bg-color     #D54428
 set $background-color	 #000000
 set $background-bar-color #581845
 set $backgroung-bar-inactive  #000000
