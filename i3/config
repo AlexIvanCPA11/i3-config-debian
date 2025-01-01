@@ -123,10 +123,10 @@ bindsym $mod+space focus mode_toggle
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Home"
-set $ws2 "2
-set $ws3 "3"
-set $ws4 "4"
+set $ws1 "1: Banger"
+set $ws2 "2: Files"
+set $ws3 "3: Coding"
+set $ws4 "4: Browse"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -210,21 +210,40 @@ client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #000000
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #urgent-bg-color
 
+#ignore it, i tried to use polybar instead i3blocks
 #exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-#bar
+# #bar
+# bar {
+#       padding 0px 311px 0px 311px
+#       status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#  	position top
+#       colors {
+#  		background $background-color 
+#  		separator #757575
+#  		#                  border                background              text
+#  		focused_workspace  $border-color        $background-bar-color   $inactive-text-color
+#  		inactive_workspace $border-color	$background-color       $background-bar-inactive
+#  		urgent_workspace   $urgent-bg-color     $urgent-bg-color          $inactive-text-color
+#  	}
+# }
+
+
 bar {
-        status_command i3blocks -c ~/.config/i3/i3blocks-beta.conf
- 	position top
-         colors {
- 		background $background-color 
- 		separator #757575
- 		#                  border                background              text
- 		focused_workspace  $border-color        $background-bar-color   $inactive-text-color
- 		inactive_workspace $border-color	$background-color       $background-bar-inactive
- 		urgent_workspace   $urgent-bg-color     $urgent-bg-color          $inactive-text-color
- 	}
+        padding 0px 311px 0px 311px
+        position top
+        status_command  ~/.config/i3/bumblebee-status/bumblebee-status -m  disk:root  cpu memory battery date time  -p  disk.open="" disk.format="{used}({percent:05.02f}%)" memory.format="{used}/{total}" root.path=/ time.format="%H:%M" date.format="%A, %B %d %Y" -t iceberg-dark-powerline
+
+	colors {
+  		background $background-color
+  		separator #757575
+  		#                  border                background              text
+  		focused_workspace  $border-color        $background-bar-color   $inactive-text-color
+  		inactive_workspace $border-color	$background-color       $background-bar-inactive
+  		urgent_workspace   $urgent-bg-color     $urgent-bg-color          $inactive-text-color
+  	}
 }
+
 
 
 
