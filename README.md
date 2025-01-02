@@ -17,7 +17,7 @@ And then git clone lightdm-mini-greeter project
 
 ```$ sudo apt install i3 i3-wm i3blocks i3status i3-gaps```
 
-```$ sudo apt install  rofi feh pulseaudio nemo terminator lxappearance compton```
+```$ sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance compton```
 
 Compton for start. I recommend fastcompmgr
 
