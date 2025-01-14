@@ -6,26 +6,37 @@
 Most important one, the lightdm (if you want to have a GUI)
 
 ```
-$ sudo apt install lightdm 
+sudo apt install lightdm 
 ```
 And then git clone lightdm-mini-greeter project
 
-```$ sudo systemctl restart lightdm``` to refresh so you don't need to reboot
+``` 
+sudo systemctl restart lightdm
+```
+to refresh so you don't need to reboot
 
 Update i3 to latest version
 
 Alternative to i3blocks can be bumblebee-status
 
 
-```$ sudo apt install i3 i3-wm i3blocks i3status i3-gaps```
+``` 
+sudo apt install i3 i3-wm i3blocks i3status i3-gaps
+```
 
-```$ sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance compton```
+``` 
+sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance compton
+```
 
 Compton for start. I recommend fastcompmgr
 
 ### Brave Browser
-```$ curl -fsS https://dl.brave.com/install.sh | sh```
+``` 
+curl -fsS https://dl.brave.com/install.sh | sh
+```
 
 ### If you have missing fonts 
-```$ sudo apt install fonts-recommended```
+``` 
+sudo apt install fonts-recommended
+```
 
