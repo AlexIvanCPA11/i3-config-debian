@@ -16,7 +16,7 @@ sudo systemctl restart lightdm
 to refresh so you don't need to reboot
 
 ``` 
-sudo apt install i3 i3-wm i3blocks i3status i3-gaps
+sudo apt install i3 i3blocks i3status i3-gaps
 ```
 
 Update i3 to latest version
