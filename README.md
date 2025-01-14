@@ -10,7 +10,7 @@ $ sudo apt install lightdm
 ```
 And then git clone lightdm-mini-greeter project
 
-```sudo systemctl restart lightdm``` to refresh so you don't need to reboot
+```$ sudo systemctl restart lightdm``` to refresh so you don't need to reboot
 
 Update i3 to latest version
 
@@ -24,7 +24,7 @@ Alternative to i3blocks can be bumblebee-status
 Compton for start. I recommend fastcompmgr
 
 ### Brave Browser
-```curl -fsS https://dl.brave.com/install.sh | sh```
+```$ curl -fsS https://dl.brave.com/install.sh | sh```
 
 ### If you have missing fonts 
 ```$ sudo apt install fonts-recommended```
