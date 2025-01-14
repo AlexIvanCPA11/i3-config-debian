@@ -21,7 +21,7 @@ sudo apt install i3 i3blocks i3status i3-gaps
 
 Update i3 to latest version
 
-Alternative to i3blocks can be bumblebee-status
+Alternative to i3blocks can be bumblebee-status or polybar
 
 
 ``` 
