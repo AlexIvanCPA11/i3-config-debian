@@ -5,15 +5,17 @@
 
 Most important one, the lightdm (if you want to have a GUI)
 
-Update i3 to latest version
-alternative to i3blocks can be bumblebee-status
-
 ```
-$ sudo apt install lightdm lightdm-gtk-greeter lightdm-settings
+$ sudo apt install lightdm 
 ```
 And then git clone lightdm-mini-greeter project
 
 ```sudo systemctl restart lightdm``` to refresh so you don't need to reboot
+
+Update i3 to latest version
+
+Alternative to i3blocks can be bumblebee-status
+
 
 ```$ sudo apt install i3 i3-wm i3blocks i3status i3-gaps```
 
