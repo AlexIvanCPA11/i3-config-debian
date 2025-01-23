@@ -25,10 +25,10 @@ Alternative to i3blocks can be bumblebee-status or polybar
 
 
 ``` 
-sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance compton vim
+sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance xcompmgr vim
 ```
 
-Compton for start. I recommend fastcompmgr
+compton / xcompmgr for start. I recommend fastcompmgr if you are using virtual machine like me, if not then picom is worldwide choise
 
 ### Brave Browser
 ``` 
