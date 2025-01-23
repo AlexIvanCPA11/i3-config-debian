@@ -16,7 +16,7 @@ sudo systemctl restart lightdm
 to refresh so you don't need to reboot
 
 ``` 
-sudo apt install i3 i3blocks i3status i3-gaps
+sudo apt install i3 
 ```
 
 Update i3 to latest version
@@ -25,7 +25,7 @@ Alternative to i3blocks can be bumblebee-status or polybar
 
 
 ``` 
-sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance compton
+sudo apt install  rofi feh pulseaudio pcmanfm terminator lxappearance compton vim
 ```
 
 Compton for start. I recommend fastcompmgr
