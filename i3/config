@@ -10,14 +10,13 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Wallpaper
-exec_always feh --bg-scale /home/diobrando/Pictures/Backgrounds/lord-cinder.png
+exec_always feh --bg-scale /home/diobrando/Display/Backgrounds/lord-cinder.png
 
 # Desktop Compositor Picom
 #exec_always compton 
 #exec_always --no-startup-id picom --experimental-backend --config /home/diobrando/.config/picom/picom.conf -b --no-vsync
-
 #exec_always fastcompmgr -o 0.95 -r 11 -c -C -i 0.95
-exec_always xcompmgr c -C -t-5 -l-5 -r4.2 -o.55 &
+#exec_always xcompmgr c -C -t-5 -l-5 -r4.2 -o.55 &
 
 #Lock Screen
 #bindsym $mod+shift+x exec i3lock -i  ~/Pictures/Backgrounds/the-dark-soul.png
