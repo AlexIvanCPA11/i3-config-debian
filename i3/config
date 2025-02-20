@@ -9,6 +9,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+#ignore it, i tried to use polybar instead i3blocks
+exec killall -q polybar
+exec_always --no-startup-id polybar -c ~/.config/polybar/config.ini
+
 # Wallpaper
 exec_always feh --bg-scale /home/diobrando/Display/Backgrounds/lord-cinder.png
 
@@ -210,42 +214,6 @@ client.focused          $urgent-bg-color    $urgent-bg-color   $text-color      
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #000000
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #000000
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #urgent-bg-color
-
-#ignore it, i tried to use polybar instead i3blocks
-exec killall -q polybar
-exec_always --no-startup-id polybar -c ~/.config/polybar/config.ini
-
-# #bar
-# bar {
-#       padding 0px 311px 0px 311px
-#       status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#  	position top
-#       colors {
-#  		background $background-color 
-#  		separator #757575
-#  		#                  border                background              text
-#  		focused_workspace  $border-color        $background-bar-color   $inactive-text-color
-#  		inactive_workspace $border-color	$background-color       $background-bar-inactive
-#  		urgent_workspace   $urgent-bg-color     $urgent-bg-color          $inactive-text-color
-#  	}
-# }
-
-
-# bar {
-#         padding 0px 0px 0px 511px
-#         position top
-#         status_command  ~/.config/i3/bumblebee-status/bumblebee-status -m  disk:root  cpu memory battery date time  -p  disk.open="" disk.format="{used}/{size}({percent:05.02f}%)" memory.format="{used}/{total}" root.path=/ time.format="%H:%M" date.format="%A, %B %d %Y" -t iceberg-dark-powerline
-
-# 	colors {
-#   		background $background-color
-#   		separator #757575
-#   		#                  border                background              text
-#   		focused_workspace  $border-color        $background-bar-color   $inactive-text-color
-#   		inactive_workspace $border-color	$background-color       $background-bar-inactive
-#   		urgent_workspace   $urgent-bg-color     $urgent-bg-color          $inactive-text-color
-#   	}
-# }
-
 
 
 
