@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 #ignore it, i tried to use polybar instead i3blocks
-exec killall -q polybar
+#exec killall -q polybar
 exec_always --no-startup-id polybar -c ~/.config/polybar/config.ini
 
 # Wallpaper
