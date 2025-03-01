@@ -18,9 +18,11 @@ exec_always feh --bg-scale /home/diobrando/Display/Backgrounds/lord-cinder.png
 
 # Desktop Compositor Picom
 #exec_always compton 
-#exec_always --no-startup-id picom --experimental-backend --config /home/diobrando/.config/picom/picom.conf -b --no-vsync
+#exec_always --no-startup-id picom --experimental-backend --config /home/diobrando/lconfig/picom/picom.conf -b --no-vsync
 #exec_always fastcompmgr -o 0.95 -r 11 -c -C -i 0.95
 #exec_always xcompmgr c -C -t-5 -l-5 -r4.2 -o.55 &
+
+#exec_always --no-startup-id picom --config home/diobrando/.config/picom/picom.conf -b --no-vsync 
 
 #Lock Screen
 #bindsym $mod+shift+x exec i3lock -i  ~/Pictures/Backgrounds/the-dark-soul.png
@@ -127,9 +129,9 @@ bindsym $mod+space focus mode_toggle
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Banger"
-set $ws2 "2: Browse"
-set $ws3 "3: Coding"
+set $ws1 "1: Coding"
+set $ws2 "2: Banger"
+set $ws3 "3: Browse"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
