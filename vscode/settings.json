@@ -1,0 +1,22 @@
+{
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["h", "h"],
+      "after": ["<Esc>"]
+    }
+  ],
+  
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "ayu MiDas",
+  "chat.commandCenter.enabled": false
+}
